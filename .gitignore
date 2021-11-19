@@ -1,0 +1,5 @@
+vendor
+.vscode
+vendor
+*.lock
+test.php

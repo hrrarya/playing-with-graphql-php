@@ -1,0 +1,17 @@
+type Query {
+  getPerson: [Person]
+  getPet: [Pet]
+}
+
+type Person {
+  person_id: Int
+  name: String
+  age: Int
+  pet_id: Int
+  pet: [Pet]
+}
+
+type Pet {
+  pet_id: Int
+  name: String
+}
